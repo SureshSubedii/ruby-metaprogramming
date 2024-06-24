@@ -1,0 +1,6 @@
+notifications:
+  users:
+    signed_up: Hi %{{{user.name}}}. Welcome onboard!
+    email_changed:  Your email has been changed to %{{{user.email}}}.
+  posts:
+    commented: User %{{{user.name}}} added comment to your post %{{{post.title}}}.
